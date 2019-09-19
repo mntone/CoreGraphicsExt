@@ -1061,7 +1061,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.1;
+				MARKETING_VERSION = 0.9.2;
 				PRODUCT_BUNDLE_IDENTIFIER = mntone.CoreGraphicsExt;
 				PRODUCT_NAME = CoreGraphicsExt;
 				SKIP_INSTALL = YES;
@@ -1083,7 +1083,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.1;
+				MARKETING_VERSION = 0.9.2;
 				PRODUCT_BUNDLE_IDENTIFIER = mntone.CoreGraphicsExt;
 				PRODUCT_NAME = CoreGraphicsExt;
 				SKIP_INSTALL = YES;
@@ -1105,8 +1105,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "mntone.CoreGraphicsExt-watchOS";
+				MARKETING_VERSION = 0.9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.CoreGraphicsExt;
 				PRODUCT_NAME = CoreGraphicsExt;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1129,8 +1129,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "mntone.CoreGraphicsExt-watchOS";
+				MARKETING_VERSION = 0.9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.CoreGraphicsExt;
 				PRODUCT_NAME = CoreGraphicsExt;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1153,8 +1153,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "mntone.CoreGraphicsExt-tvOS";
+				MARKETING_VERSION = 0.9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.CoreGraphicsExt;
 				PRODUCT_NAME = CoreGraphicsExt;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1177,8 +1177,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "mntone.CoreGraphicsExt-tvOS";
+				MARKETING_VERSION = 0.9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.CoreGraphicsExt;
 				PRODUCT_NAME = CoreGraphicsExt;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1202,8 +1202,8 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "mntone.CoreGraphicsExt-macOS";
+				MARKETING_VERSION = 0.9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.CoreGraphicsExt;
 				PRODUCT_NAME = CoreGraphicsExt;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1226,8 +1226,8 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "mntone.CoreGraphicsExt-macOS";
+				MARKETING_VERSION = 0.9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.CoreGraphicsExt;
 				PRODUCT_NAME = CoreGraphicsExt;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
