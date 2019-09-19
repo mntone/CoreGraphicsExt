@@ -1,9 +1,9 @@
 import CoreGraphics
+import Foundation
 import ImageIO
 
 #if os(macOS)
 import CoreServices
-import Foundation
 #else
 import MobileCoreServices
 #endif

@@ -13,8 +13,8 @@ public extension CGImage {
 	}
 	
 	var pixelProvider: CGEPixelProvider {
-		if #available(iOS 10.0, tvOS 10.0, macOS 10.12, *) {
-			if #available(iOS 13.0, tvOS 13.0, macOS 10.15, *) {
+		if #available(iOS 10.0, watchOS 3.0, tvOS 10.0, macOS 10.12, *) {
+			if #available(iOS 13.0, watchOS 6.0, tvOS 13.0, macOS 10.15, *) {
 				if let colorSpace = colorSpace, (colorSpace.isWideGamutRGB || colorSpace.isHDR()) {
 					guard let sRGBImage = self.sRGB else { fatalError() }
 					return getPixelProvider(sRGBImage)

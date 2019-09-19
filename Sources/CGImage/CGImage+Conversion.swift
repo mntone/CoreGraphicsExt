@@ -96,12 +96,12 @@ public extension CGImage {
 	}
 	
 	// MARK: L*a*b*
-	@available(iOS 11.0, tvOS 11.0, macOS 10.13, *)
+	@available(iOS 11.0, watchOS 4.0, tvOS 11.0, macOS 10.13, *)
 	var lab: CGImage? {
 		return lab(to: CGEInt2(x: width, y: height))
 	}
 	
-	@available(iOS 11.0, tvOS 11.0, macOS 10.13, *)
+	@available(iOS 11.0, watchOS 4.0, tvOS 11.0, macOS 10.13, *)
 	func lab(to size: CGEInt2, bitsPerComponent: Int? = 8) -> CGImage? {
 		return convert(fromColorSpace: CGColorSpace.genericLab,
 					   asSize: size,

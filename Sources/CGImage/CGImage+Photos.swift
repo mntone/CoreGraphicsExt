@@ -41,7 +41,7 @@ public extension CGImage {
 		return data as Data
 	}
 	
-	@available(iOS 11.0, tvOS 11.0, macOS 10.13, *)
+	@available(iOS 11.0, watchOS 4.0, tvOS 11.0, macOS 10.13, *)
 	func makeHeic(orientation: CGEImageOrientation? = nil, compressionQuality: CGFloat) -> Data? {
 		let options: NSDictionary
 		if let orientation = orientation {
