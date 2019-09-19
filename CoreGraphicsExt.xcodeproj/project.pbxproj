@@ -149,6 +149,10 @@
 		EBE4ACE32333806E00C8CB86 /* CGVectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4ACE22333806E00C8CB86 /* CGVectorTests.swift */; };
 		EBE4ACE42333806E00C8CB86 /* CGVectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4ACE22333806E00C8CB86 /* CGVectorTests.swift */; };
 		EBE4ACE52333806E00C8CB86 /* CGVectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4ACE22333806E00C8CB86 /* CGVectorTests.swift */; };
+		EBE4ACEF2333A97600C8CB86 /* CGEImageConvertOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4ACEE2333A97600C8CB86 /* CGEImageConvertOptions.swift */; };
+		EBE4ACF02333A97600C8CB86 /* CGEImageConvertOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4ACEE2333A97600C8CB86 /* CGEImageConvertOptions.swift */; };
+		EBE4ACF12333A97600C8CB86 /* CGEImageConvertOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4ACEE2333A97600C8CB86 /* CGEImageConvertOptions.swift */; };
+		EBE4ACF22333A97600C8CB86 /* CGEImageConvertOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4ACEE2333A97600C8CB86 /* CGEImageConvertOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +229,7 @@
 		EBE4ACD823337F9300C8CB86 /* CGPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointTests.swift; sourceTree = "<group>"; };
 		EBE4ACDD2333801000C8CB86 /* CGSizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeTests.swift; sourceTree = "<group>"; };
 		EBE4ACE22333806E00C8CB86 /* CGVectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGVectorTests.swift; sourceTree = "<group>"; };
+		EBE4ACEE2333A97600C8CB86 /* CGEImageConvertOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGEImageConvertOptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				EBE4AC3923331BA400C8CB86 /* PixelProvider */,
+				EBE4ACEE2333A97600C8CB86 /* CGEImageConvertOptions.swift */,
 				EBE4AC1B2332553700C8CB86 /* CGImage+Conversion.swift */,
 				EBE4AC47233358C300C8CB86 /* CGImage+Conversion+Utils.swift */,
 				EBE4AC2023325B3D00C8CB86 /* CGImage+Extensions.swift */,
@@ -726,6 +732,7 @@
 				EBE4AC3B23331BB300C8CB86 /* CGEConvertingPixelProvider.swift in Sources */,
 				EBE4AC48233358C300C8CB86 /* CGImage+Conversion+Utils.swift in Sources */,
 				EBE4AC122332518500C8CB86 /* CGSize+Functions.swift in Sources */,
+				EBE4ACEF2333A97600C8CB86 /* CGEImageConvertOptions.swift in Sources */,
 				EBE4AC7B233361BF00C8CB86 /* CGESimd4Support.swift in Sources */,
 				EBE4AC442333281100C8CB86 /* CGENormalizePixelProvider.swift in Sources */,
 				EBE4AC1C2332553700C8CB86 /* CGImage+Conversion.swift in Sources */,
@@ -755,6 +762,7 @@
 				EBE4ABEC23322CB800C8CB86 /* CGSize+Defines.swift in Sources */,
 				EBE4AC5923335A3300C8CB86 /* CGEConvertingPixelProvider.swift in Sources */,
 				EBE4ABFE233247F600C8CB86 /* CGSize+Operators.swift in Sources */,
+				EBE4ACF02333A97600C8CB86 /* CGEImageConvertOptions.swift in Sources */,
 				EBE4ACD523337BEF00C8CB86 /* CGESimd4Support+Functions.swift in Sources */,
 				EBE4AC5D23335A3300C8CB86 /* CGEPixelProvider+Extensions.swift in Sources */,
 				EBE4AC6223335A3300C8CB86 /* CGImage+Files.swift in Sources */,
@@ -792,6 +800,7 @@
 				EBE4AC5723335A3300C8CB86 /* CGEPixelProvider+HSV.swift in Sources */,
 				EBE4ABF223322D2C00C8CB86 /* CGESimd2Support.swift in Sources */,
 				EBE4ACD623337BF000C8CB86 /* CGESimd4Support+Functions.swift in Sources */,
+				EBE4ACF12333A97600C8CB86 /* CGEImageConvertOptions.swift in Sources */,
 				EBE4AC0A233248E900C8CB86 /* CGVector+Operators.swift in Sources */,
 				EBE4AC2D2332604000C8CB86 /* CGImage+Tiff.swift in Sources */,
 				EBE4AC3723331B0500C8CB86 /* CGEPixelProvider.swift in Sources */,
@@ -829,6 +838,7 @@
 				EBE4AC6823335A3400C8CB86 /* CGEPixelProvider+HSV.swift in Sources */,
 				EBE4ABF423322D8900C8CB86 /* CGESimd2Support.swift in Sources */,
 				EBE4ACD723337BF000C8CB86 /* CGESimd4Support+Functions.swift in Sources */,
+				EBE4ACF22333A97600C8CB86 /* CGEImageConvertOptions.swift in Sources */,
 				EBE4AC0B233248E900C8CB86 /* CGVector+Operators.swift in Sources */,
 				EBE4AC2E2332604000C8CB86 /* CGImage+Tiff.swift in Sources */,
 				EBE4AC3823331B0500C8CB86 /* CGEPixelProvider.swift in Sources */,
