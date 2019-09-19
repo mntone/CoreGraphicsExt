@@ -43,7 +43,7 @@ func rgbToHSV<IntegerType: UnsignedInteger>(_ red: IntegerType, _ green: Integer
 	return (hue, saturation, brightness)
 }
 
-extension CGEPixelProvider {
+public extension CGEPixelProvider {
 	var toHSV: CGEPixelProvider {
 		switch alphaInfo {
 		case .none, .noneSkipLast, .noneSkipFirst:
