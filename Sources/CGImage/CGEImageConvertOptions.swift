@@ -5,6 +5,7 @@ public struct CGEImageConvertOptions {
 	public var byteOrderInfo: CGImageByteOrderInfo? = .orderDefault
 	
 	public static let `default` = CGEImageConvertOptions()
+	public static let preserveAlphaOnly = CGEImageConvertOptions(alphaInfo: nil, byteOrderInfo: .orderDefault)
 	public static let preserve = CGEImageConvertOptions(alphaInfo: nil, byteOrderInfo: nil)
 }
 
