@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 	spec.name          = "CoreGraphicsExt"
-	spec.version       = "0.9.2"
+	spec.version       = "0.9.3"
 	spec.summary       = "CoreGraphicsExt"
 	spec.description   = "Core Graphics extensions"
 	spec.homepage      = "https://github.com/mntone/MTKit"
